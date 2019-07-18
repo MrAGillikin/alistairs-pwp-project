@@ -29,6 +29,8 @@ echo		"<ul>
 			<li>Other people losing his work</li>
 			<li>Forced Updates</li>
 			<li>Losing passwords</li>
-		</ul>";
+		</ul>
+		<h3>Goal:</h3>
+		<p>Passing the time, finding something interesting.</p>";
 
 ?>
