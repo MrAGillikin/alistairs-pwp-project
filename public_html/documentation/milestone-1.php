@@ -1,4 +1,4 @@
-<?php
+
 
 <p>Purpose: I would like my PWP to serve as a test for user-interactions.</p>
 
@@ -32,5 +32,3 @@
 		</ul>
 		<h3>Goal:</h3>
 		<p>Passing the time, finding something interesting.</p>"
-
-?>
