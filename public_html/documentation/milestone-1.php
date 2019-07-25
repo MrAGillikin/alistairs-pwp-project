@@ -1,4 +1,10 @@
-
+<DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8"/>
+			<title>PWP version 1</title>
+		</head>
+		<body>
 
 <p>Purpose: I would like my PWP to serve as a test for user-interactions.</p>
 
@@ -31,4 +37,6 @@
 			<li>Losing passwords</li>
 		</ul>
 		<h3>Goal:</h3>
-		<p>Passing the time, finding something interesting.</p>"
+		<p>Passing the time, finding something interesting.</p>
+	</body>
+</html>
