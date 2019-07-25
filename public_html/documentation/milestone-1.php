@@ -12,10 +12,10 @@
 
 <p>My goal is to make it impressive enough to gain a job or internship in coding.</p>
 
-<h1>User Persona:</h1>"
-		"<h2>Mitchell Hyne</h2>"
-		"<img src="businessman.jpg" alt="Mitchell Hyne" />"
-		"<ul>
+<h1>User Persona:</h1>
+		<h2>Mitchell Hyne</h2>
+		<img src="businessman.jpg" alt="Mitchell Hyne" style="width: 20em;" />
+		<ul>
 			<li>Age: 27</li>
 			<li>Tech Proficiency: Casual user</li>
 			<li>Occupation: Businessman</li>
