@@ -6,7 +6,7 @@
 		</head>
 		<body>
 
-<p>Purpose: I would like my PWP to serve as a test for user-interaction techniques.</p>
+<p>Purpose: I would like my PWP to serve as a test for user-interaction techniques. It will take input from the user (text input if I can manage it, menu options if that's too impractical) and respond semi-randomly.</p>
 
 <p>My audience consists of peers, as well as potential employers and clients.</p>
 
