@@ -19,10 +19,10 @@
 <p><strong>Background:</strong> The website's visual style should be simple, but appealing. I should limit it to two complementary colors as much as possible, with perhaps a third for things that should really stand out..</p>
 
 <h2>Desktop Wireframe:</h2>
-<img src="PWP2DesktopWireframe.gif" alt="Desktop Wireframe" />
+<img src="pwp2DesktopWireframe.png" alt="https://wireframe.cc/X1DNwx desktop wireframe" />
 
 <h2>Mobile Wireframe</h2>
-<img src="PWP2MobileWireframe.gif" alt="Mobile Wireframe" />
+<img src="pwp2MobileWireframe.png" alt="https://wireframe.cc/r16pCr Mobile Wireframe" />
 
 </body>
 </html>
