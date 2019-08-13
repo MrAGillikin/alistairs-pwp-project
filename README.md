@@ -24,3 +24,10 @@ Your grade for Milestone 1 is tier 2
 Overall, you have a good discussion of the sections of your site, but your wireframes need more work.  Neither your interface nor your contact form is present on either of your wireframes, and they should be.  Your interface in particular is critical to your site, as it is the heart of your site's content.  If something is that important, it should be clearly laid out in your wireframe so that you can make the build process simply an execution of a clearly laid out plan.
 
 The current grade for this is a Tier I.  Please resubmit this.  We'll give you details in slack.
+
+### Milestone 2a resubmission
+
+* You've cleaned up your wireframes, which is the most critical piece of this.
+* I'm still not completely clear on what your interface will do, but I think it's fine to leave that off until later.
+
+This resubmission grades at a Tier II.  You're cleared to move on to Milestone 2b.
