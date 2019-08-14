@@ -44,7 +44,7 @@
 <footer>
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
-	<form id="alistair's-contact-form" action="php/mailer.php" method="post">
+	<form id="alistairs-contact-form" action="php/mailer.php" method="post">
 		<div class="form-group">
 			<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
