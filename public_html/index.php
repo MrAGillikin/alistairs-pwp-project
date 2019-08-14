@@ -80,7 +80,7 @@
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 				</div>
-				<textarea class="form-control" rows="5" id="emailMessage" name="EmailMessage" placeholder="Enter Message Here"></textarea>
+				<textarea class="form-control" rows="5" id="emailMessage" name="emailMessage" placeholder="Enter Message Here"></textarea>
 			</div>
 		</div>
 
