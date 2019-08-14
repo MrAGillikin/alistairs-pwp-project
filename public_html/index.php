@@ -46,7 +46,7 @@
 <footer>
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
-	<form id="alistairs-contact-form" action="/php/index.php" method="post">
+	<form id="alistairs-contact-form" action="../php/index.php" method="post">
 		<div class="form-group">
 			<label for="contactName">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
