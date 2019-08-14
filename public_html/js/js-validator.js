@@ -27,14 +27,18 @@ $(document).ready(function(){
 		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
-			name: {
+			contactName: {
 				required: true
 			},
-			email: {
+			emailAddress: {
 				email: true,
 				required: true
 			},
-			message: {
+			emailSubject: {
+				required: true,
+				maxlength: 200
+			},
+			emailMessage: {
 				required: true,
 				maxlength: 2000
 			}

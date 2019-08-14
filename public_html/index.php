@@ -48,7 +48,7 @@
 
 	<form id="alistairs-contact-form" action="/php/index.php" method="post">
 		<div class="form-group">
-			<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+			<label for="contactName">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="contactDemoSubject">Subject</label>
+			<label for="emailSubject">Subject</label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
