@@ -44,6 +44,43 @@
 <footer>
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
+	<form id="alistair's-contact-form" action="php/mailer.php" method="post">
+		<div class="form-group">
+			<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+				</div>
+				<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="emailAddress">Email <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+				</div>
+				<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="emailMessage">Message <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+				</div>
+				<textarea class="form-control" rows="5" id="emailMessage" name="EmailMessage" placeholder="Enter Message Here"></textarea>
+			</div>
+		</div>
+
+		<div class="g-recaptcha" data-sitekey="6LdF5LIUAAAAAJT9ZbSHhf6RC1me720Byh5l_UJu"></div>
+
+		<button class="btn btn-success" type="submit">Send</button>
+
+
+
+
+	</form>
 </footer>
 
 </html>
