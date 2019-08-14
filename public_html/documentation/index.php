@@ -51,7 +51,7 @@
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 				</div>
-				<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+				<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 			</div>
 		</div>
 		<div class="form-group">

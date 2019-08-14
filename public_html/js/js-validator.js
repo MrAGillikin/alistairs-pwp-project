@@ -42,14 +42,14 @@ $(document).ready(function(){
 
 		// error messages to display to the end user when rules above don't pass
 		messages: {
-			name: {
+			contactName: {
 				required: "Please enter your name."
 			},
-			email: {
+			emailAddress: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
-			message: {
+			emailMessage: {
 				required: "Please enter a message.",
 				maxlength: "2000 characters max."
 			}
