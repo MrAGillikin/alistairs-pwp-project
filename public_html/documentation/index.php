@@ -77,6 +77,13 @@
 
 		<button class="btn btn-success" type="submit">Send</button>
 
+		<!-- Error/Success output -->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
+
 
 
 
