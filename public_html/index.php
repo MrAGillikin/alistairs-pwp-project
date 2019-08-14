@@ -11,13 +11,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 	<!-- jQuery Form, Additional Methods, Validate -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<!-- Your JavaScript Form Validator -->
-	<script src="js/form-validate.js"></script>
+	<script src="js/js-validator.js"></script>
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -44,7 +46,7 @@
 <footer>
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
-	<form id="alistairs-contact-form" action="php/mailer.php" method="post">
+	<form id="alistairs-contact-form" action="../php/index.php" method="post">
 		<div class="form-group">
 			<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
@@ -73,6 +75,7 @@
 			</div>
 		</div>
 
+		<!-- reCAPTCHA-->
 		<div class="g-recaptcha" data-sitekey="6LdF5LIUAAAAAJT9ZbSHhf6RC1me720Byh5l_UJu"></div>
 
 		<button class="btn btn-success" type="submit">Send</button>

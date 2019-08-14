@@ -8,12 +8,14 @@
  * @author Rochelle Lewis <rlewis37@cnm.edu>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 3) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
-use \SendGrid\Mail;
-$sendgrid = new \SendGrid($sendGridSecret);
+use Mailgun\Mailgun;
+use ReCaptcha\ReCaptcha;
+
+
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
