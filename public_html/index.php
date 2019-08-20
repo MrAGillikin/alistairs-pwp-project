@@ -34,11 +34,17 @@
 	<div class="jumbotron">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This is currently a simple Jumbotron unit.</p>
+		<form action="/action_page.php">
+			Input<br>
+			<input type="text" name="Input" value="Enter"><br>
+			<input type="submit" value="Submit">
+		</form>
 		<p class="lead">
 			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 		</p>
 		<hr class="my-4">
-		<p>Be sure to add forms inside.</p>
+		<p>Be sure to finish these forms.</p>
+		<p id="response"></p>
 	</div>
 
 </body>
