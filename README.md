@@ -31,3 +31,11 @@ The current grade for this is a Tier I.  Please resubmit this.  We'll give you d
 * I'm still not completely clear on what your interface will do, but I think it's fine to leave that off until later.
 
 This resubmission grades at a Tier II.  You're cleared to move on to Milestone 2b.
+
+### Milestone 2b Feedback
+
+There isn't any actual content yet. Your content strategy was to have intereation based on user input. This should be show some functionality at this point but it does not.
+This milestone was submitted late.
+
+Your grade for milesone 2b is Tier 1
+
