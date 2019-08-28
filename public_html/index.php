@@ -44,7 +44,7 @@
 		</p>
 		<hr class="my-4">
 		<p>Be sure to finish these forms.</p>
-		<p id="response"></p>
+		<p id="response">After the submit button is pressed, the response will be shown here.</p>
 	</div>
 
 </body>
