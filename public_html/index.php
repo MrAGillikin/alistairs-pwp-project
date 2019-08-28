@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<!-- Your JavaScript Form Validator -->
+	<script src="./script.js"></script>
 	<script src="js/js-validator.js"></script>
 
 	<!-- Google reCAPTCHA -->
