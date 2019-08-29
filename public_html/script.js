@@ -9,7 +9,7 @@ function myReplaceFunction() {
 }
 
 function replaceWith(input){
-	var arr = input.split(" "|", "|". "|"! "|"? ");
+	var arr = input.split(" "||", "||". "||"! "||"? ");
 	let updatedArr = arr.map(
 		(object) => {
 			return object.length.toString;
