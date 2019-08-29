@@ -14,6 +14,6 @@ function replaceWith(input){
 		(object) => {
 			return object.length.toString;
 		}
-	)
+	);
 	let result = updatedArr.join(" ");
 }
