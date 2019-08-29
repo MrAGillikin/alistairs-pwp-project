@@ -37,7 +37,7 @@
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
 		<form onsubmit="myReplaceFunction()">
 			Input<br>
-			<input type="text" name="Input" value="Enter"><br>
+			<input type="text" name="interfaceinput" value="Enter"><br>
 			<input type="submit" value="Submit">
 		</form>
 		<hr class="my-4">
