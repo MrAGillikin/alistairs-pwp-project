@@ -43,7 +43,11 @@
 
 		</form>
 		<p class="lead">After the submit button is pressed, the response will be shown below.</p>
-		<div id="response"></div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="response"></div>
+			</div>
+		</div>
 	</div>
 
 
