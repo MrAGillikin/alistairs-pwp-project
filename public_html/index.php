@@ -40,9 +40,7 @@
 			<input type="text" name="Input" value="Enter"><br>
 			<input type="submit" value="Submit">
 		</form>
-
 		<hr class="my-4">
-		<p>Be sure to finish these forms.</p>
 		<p id="response">After the submit button is pressed, the response will be shown here.</p>
 	</div>
 
