@@ -4,7 +4,7 @@ window.onload = function (){
 
 function myReplaceFunction() {
 	let input = document.getElementById("interfaceinput").value;
-
+	console.log(input);
 	document.getElementById("response").value = replaceWith(input);
 }
 
