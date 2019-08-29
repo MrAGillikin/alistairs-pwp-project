@@ -35,13 +35,13 @@
 	<div class="jumbotron">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
-		<form action="/action_page.php" onsubmit="return myReplaceFunction()">
+		<form onsubmit="return myReplaceFunction()">
 			Input<br>
 			<input type="text" name="Input" value="Enter"><br>
 			<input type="submit" value="Submit">
 		</form>
 		<hr class="my-4">
-		<p id="response">After the submit button is pressed, the response will be shown here.</p>
+		<p class="lead" id="response">After the submit button is pressed, the response will be shown here.</p>
 	</div>
 
 </body>
