@@ -35,7 +35,7 @@
 	<div class="jumbotron">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
-		<form onsubmit="myReplaceFunction()">
+		<form onsubmit="createResponse()">
 			Input<br>
 			<input type="text" id="interfaceinput" value="Enter"><br>
 			<input type="submit" value="Submit">
