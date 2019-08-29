@@ -10,11 +10,13 @@ function myReplaceFunction() {
 
 function replaceWith(input){
 	var arr = input.split(" "||", "||". "||"! "||"? ");
+	console.log(arr);
 	let updatedArr = arr.map(
 		(object) => {
 			return object.length.toString;
 		}
 	);
 	let result = updatedArr.join(" ");
+	console.log(result);
 	return result;
 }
