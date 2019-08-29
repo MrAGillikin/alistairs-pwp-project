@@ -39,9 +39,10 @@
 			Input<br>
 			<input type="text" id="interfaceinput" value="Enter"><br>
 			<input type="submit" value="Submit">
+			<hr class="my-4">
+			<p class="lead" id="response">After the submit button is pressed, the response will be shown here.</p>
 		</form>
-		<hr class="my-4">
-		<p class="lead" id="response">After the submit button is pressed, the response will be shown here.</p>
+
 	</div>
 
 </body>
