@@ -35,7 +35,7 @@
 	<div class="jumbotron">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This is currently a simple Jumbotron unit.</p>
-		<form action="/action_page.php">
+		<form action="/action_page.php" onsubmit="return myReplaceFunction()">
 			Input<br>
 			<input type="text" name="Input" value="Enter"><br>
 			<input type="submit" value="Submit">
