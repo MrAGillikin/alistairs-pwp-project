@@ -16,6 +16,5 @@ function replaceWith(input){
 		}
 	);
 	let result = updatedArr.join(" ");
-	console.log(result);
 	return result;
 }
