@@ -4,14 +4,17 @@ window.onload = function (){
 
 function createResponse() {
 	let input = document.getElementById("interfaceinput").value;
+	console.log(input);
 	let inputLength = input.length;
-	response = "That's " + input.length + "characters."
+	let response = "That's " + input.length + " characters. ";
+	console.log(response);
 	if (inputLength < 30) {
 		response = response + "Person of few words, I see."
 	}
 	if (inputLength > 100) {
 		response = response + "Kind of a mouthful."
 	}
+	console.log(response);
 	document.getElementById("response").value = response;
 }
 
