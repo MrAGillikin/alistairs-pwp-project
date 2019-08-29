@@ -34,15 +34,13 @@
 
 	<div class="jumbotron">
 		<h1 class="display-4">Entry Form</h1>
-		<p class="lead">This is currently a simple Jumbotron unit.</p>
+		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
 		<form action="/action_page.php" onsubmit="return myReplaceFunction()">
 			Input<br>
 			<input type="text" name="Input" value="Enter"><br>
 			<input type="submit" value="Submit">
 		</form>
-		<p class="lead">
-			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-		</p>
+
 		<hr class="my-4">
 		<p>Be sure to finish these forms.</p>
 		<p id="response">After the submit button is pressed, the response will be shown here.</p>
