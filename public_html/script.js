@@ -3,7 +3,7 @@ window.onload = function (){
 };
 
 function myReplaceFunction() {
-	let input = getElementByName("interfaceinput").value;
+	let input = document.getElementById("interfaceinput").value;
 
 	document.getElementById("response").value = replaceWith(input);
 }
@@ -16,5 +16,6 @@ function replaceWith(input){
 		}
 	);
 	let result = updatedArr.join(" ");
+	console.log(result);
 	return result;
 }
