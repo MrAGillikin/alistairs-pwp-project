@@ -46,7 +46,7 @@
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
 		<form onsubmit="createResponse()">
 			Input<br>
-			<input type="text" id="interfaceinput" value="Enter"><br>
+			<input type="text" id="interfaceinput" value="Enter" size="50"><br>
 			<input type="submit" value="Submit">
 			<hr class="my-4">
 
