@@ -33,7 +33,7 @@
 </head>
 <body>
 
-	<div class="text-light bg-info">
+	<div id="header" class="text-light">
 		<h1>Alistair's Interface</h1>
 		<p>Awaiting Data Entry</p>
 
