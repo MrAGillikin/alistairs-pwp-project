@@ -4,9 +4,16 @@ body {
 
 #header {
 	background-color: #022f40;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+#Main\ Interface {
+	background-color: #38aecc;
+	font-family: Ariel, Helvetica, sans-serif;
 }
 
 footer {
 	background-color: #38aecc;
+	font-family: Times New Roman, Times, serif;
 }
 
