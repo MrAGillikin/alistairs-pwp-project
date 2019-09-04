@@ -62,7 +62,7 @@
 
 </body>
 
-<footer class="bg-info">
+<footer>
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
 	<form id="alistairs-contact-form" action="../php/index.php" method="post">
