@@ -28,7 +28,7 @@
 
 	<title>PWP Alistair's interface</title>
 </head>
-<body>
+<body bgcolor="235789">
 
 	<div class="text-light bg-info">
 		<h1>Alistair's Interface</h1>
@@ -38,7 +38,7 @@
 		<p >Alistair Gillikin is a computer programmer and web developer. This interface was made to test out what could be done with HTML forms, and different ways a page could react to input. Enjoy fiddling with it, and if it interests you, feel free to send an email.</p>
 	</div>
 
-	<div class="jumbotron offset-md-1 col-10">
+	<div id="Main Interface" class="jumbotron offset-md-1 col-10">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
 		<form onsubmit="createResponse()">
@@ -59,7 +59,7 @@
 
 </body>
 
-<footer>
+<footer class="bg-info">
 	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
 	<form id="alistairs-contact-form" action="../php/index.php" method="post">
