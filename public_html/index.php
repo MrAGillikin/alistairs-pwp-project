@@ -28,7 +28,7 @@
 
 	<title>PWP Alistair's interface</title>
 </head>
-<body bgcolor="235789">
+<body>
 
 	<div class="text-light bg-info">
 		<h1>Alistair's Interface</h1>
