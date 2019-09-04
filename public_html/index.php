@@ -38,7 +38,7 @@
 		<p >Alistair Gillikin is a computer programmer and web developer. This interface was made to test out what could be done with HTML forms, and different ways a page could react to input. Enjoy fiddling with it, and if it interests you, feel free to send an email.</p>
 	</div>
 
-	<div class="jumbotron">
+	<div class="jumbotron bg-success">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word.</p>
 		<form onsubmit="createResponse()">
