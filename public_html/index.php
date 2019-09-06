@@ -46,7 +46,8 @@
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to:
 			<ul>
 				<li>Count the number of letters in each word.</li>
-				<li>Take the words and reverse their order.</li>
+				<li>Reverse the order of the words.</li>
+				<li>Change the background color while hovering over the words.</li>
 			</ul>
 			Simply type what you want into the input, then press the button corresponding to what you would like to happen. The response will appear below. Hover over the response area to highlight it.
 		</p>
@@ -61,7 +62,7 @@
 		<p class="lead">After a button is pressed, the response will be shown below.</p>
 		<div class="row">
 			<div class="col-xs-12">
-				<div id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()"></div>
+				<div id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()" style="background-color:transparent"></div>
 			</div>
 		</div>
 	</div>
