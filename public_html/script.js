@@ -30,13 +30,17 @@ function reverseInput(){
 }
 
 function myOverFunction() {
-	document.getElementById("response").style.background = "gray";
+	document.getElementById("response").style.backgroundColor = "gray";
+}
+
+function myLeaveFunction() {
+	document.getElementById("response").style.backgroundColor = "transparent";
 }
 
 function myReplaceFunction() {
 	let input = document.getElementById("interfaceinput").value;
 	console.log(input);
-	document.getElementById("response").value = replaceWith(input);
+	document.getElementById("response").innerHTML = replaceWith(input);
 }
 
 function replaceWith(input){
