@@ -44,10 +44,10 @@
 	<div id="Main Interface" class="jumbotron offset-md-1 col-10 text-center">
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word. Simply type what you want into the input, then press the Submit button and the response will appear below.</p>
-		<form onsubmit="createResponse()">
+		<form onsubmit="">
 			Input<br>
 			<input type="text" id="interfaceinput" value="Enter" size="50"><br>
-			<input type="submit" value="Submit">
+			<button type="button" onclick="createResponse()">Submit</button>
 			<hr class="my-4">
 
 		</form>
