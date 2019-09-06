@@ -43,7 +43,7 @@
 
 	<div id="Main Interface" class="jumbotron offset-md-1 col-10 text-center">
 		<h1 class="display-4">Entry Form</h1>
-		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word, or take the words and reverse their order. Simply type what you want into the input, then press the button corresponding to what you would like to happen. The response will appear below.</p>
+		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to count the number of letters in each word, or take the words and reverse their order. Simply type what you want into the input, then press the button corresponding to what you would like to happen. The response will appear below. Hover over the response area to highlight it.</p>
 		<form onsubmit="">
 			Input<br>
 			<input type="text" id="interfaceinput" value="Enter" size="50"><br>
@@ -52,10 +52,10 @@
 			<hr class="my-4">
 
 		</form>
-		<p class="lead">After the submit button is pressed, the response will be shown below.</p>
+		<p class="lead">After a button is pressed, the response will be shown below.</p>
 		<div class="row">
 			<div class="col-xs-12">
-				<div id="response"></div>
+				<div id="response" onmouseover="myOverFunction()"></div>
 			</div>
 		</div>
 	</div>

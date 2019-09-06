@@ -29,7 +29,9 @@ function reverseInput(){
 	document.getElementById("response").innerHTML = output;
 }
 
-
+function myOverFunction() {
+	document.getElementById("response").style.background = "gray";
+}
 
 function myReplaceFunction() {
 	let input = document.getElementById("interfaceinput").value;
