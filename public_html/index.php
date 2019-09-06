@@ -47,7 +47,8 @@
 		<form onsubmit="">
 			Input<br>
 			<input type="text" id="interfaceinput" value="Enter" size="50"><br>
-			<button type="button" onclick="createResponse()">Submit</button>
+			<button type="button" onclick="createResponse()">Count</button>
+			<button type="button" onclick="reverseInput()">Reverse</button>
 			<hr class="my-4">
 
 		</form>
