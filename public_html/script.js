@@ -25,9 +25,11 @@ function reverseInput(){
 	console.log(inputArr);
 	let outputArr = inputArr.reverse();
 	console.log(outputArr);
-	let output = outputArr.join();
+	let output = outputArr.join(" ");
 	document.getElementById("response").innerHTML = output;
 }
+
+
 
 function myReplaceFunction() {
 	let input = document.getElementById("interfaceinput").value;
