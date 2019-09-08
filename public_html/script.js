@@ -30,7 +30,7 @@ function reverseInput(){
 }
 
 function myOverFunction() {
-	document.getElementById("response").style.backgroundColor = "gray";
+	document.getElementById("response").style.backgroundColor = "lime";
 
 }
 

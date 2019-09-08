@@ -5,21 +5,30 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 	<!-- This one's my own stylesheet. To be used only for styling. -->
 	<link rel="stylesheet" href="./style.css"/>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			  crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+			  integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+			  crossorigin="anonymous"></script>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 	<!-- jQuery Form, Additional Methods, Validate -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<!-- Your JavaScript Form Validator -->
 	<script src="./script.js"></script>
@@ -33,43 +42,62 @@
 </head>
 <body>
 
-	<div id="header" class="text-light text-center">
-		<ul id="navbar">
-			<li><a href="#Main Interface">Main interface</a></li>
-			<li><a href="#responseForm">Contact</a></li>
-		</ul>
 
-		<h3>About the maker:</h3>
-		<p >Alistair Gillikin is a computer programmer and web developer. This interface was made to test out what could be done with HTML forms, and different ways a page could react to input. Enjoy fiddling with it, and if it interests you, feel free to send an email.</p>
-	</div>
+<div id="header" class="text-light text-center">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#Main Interface">Main interface<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#responseForm">Contact</a>
+				</li>
 
-	<div id="Main Interface" class="jumbotron offset-md-1 col-10 text-center">
-		<h1>Alistair's Interface</h1>
-		<h1 class="display-4">Entry Form</h1>
-		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to:
-			<ul>
-				<li>Count the number of letters in each word.</li>
-				<li>Reverse the order of the words.</li>
-				<li>Change the background color while hovering over the words.</li>
 			</ul>
-			Simply type what you want into the input, then press the button corresponding to what you would like to happen. The response will appear below. Hover over the response area to highlight it.
-		</p>
-		<form onsubmit="">
-			Input<br>
-			<input type="text" id="interfaceinput" value="Enter" size="50"><br>
-			<button type="button" onclick="createResponse()">Count</button>
-			<button type="button" onclick="reverseInput()">Reverse</button>
-			<hr class="my-4">
-
-		</form>
-		<p class="lead">After a button is pressed, the response will be shown below.</p>
-		<div class="card">
-			<div class="card-body" id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()">
-				Response goes here.
-			</div>
 		</div>
+	</nav>
+</div>
 
+<div id="about" class="jumbotron text-light offset-md-1 mt-4 col-10 text-center">
+	<h3>About the maker:</h3>
+	<p>Alistair Gillikin is a computer programmer and web developer. This interface was made to test out what could be
+		done with HTML forms, and different ways a page could react to input. Enjoy fiddling with it, and if it interests
+		you, feel free to send an email.</p>
+</div>
+
+<div id="Main Interface" class="jumbotron offset-md-1 col-10 text-center">
+	<h1>Alistair's Interface</h1>
+	<h1 class="display-4">Entry Form</h1>
+	<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to:
+	<ul>
+		<li>Count the number of letters in each word.</li>
+		<li>Reverse the order of the words.</li>
+		<li>Change the background color while hovering over the words.</li>
+	</ul>
+	Simply type what you want into the input, then press the button corresponding to what you would like to happen. The
+	response will appear below. Hover over the response area to highlight it.
+	</p>
+	<form onsubmit="">
+		Input<br>
+		<input type="text" id="interfaceinput" value="Enter" size="50"><br>
+		<button type="button" onclick="createResponse()">Count</button>
+		<button type="button" onclick="reverseInput()">Reverse</button>
+		<hr class="my-4">
+
+	</form>
+	<p class="lead">After a button is pressed, the response will be shown below.</p>
+	<div class="card">
+		<div class="card-body" id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()">
+			Response goes here.
+		</div>
 	</div>
+
+</div>
 
 
 </body>
@@ -85,7 +113,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 					</div>
-					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
+					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="">
 				</div>
 			</div>
 			<div class="form-group">
@@ -94,7 +122,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 					</div>
-					<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email">
+					<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="">
 				</div>
 			</div>
 			<div class="form-group">
@@ -103,7 +131,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 					</div>
-					<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
+					<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="">
 				</div>
 			</div>
 			<div class="form-group">
@@ -112,7 +140,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"></span>
 					</div>
-					<textarea class="form-control" rows="5" id="emailMessage" name="emailMessage" placeholder="Enter Message Here"></textarea>
+					<textarea class="form-control" rows="5" id="emailMessage" name="emailMessage" placeholder=""></textarea>
 				</div>
 			</div>
 
@@ -127,9 +155,6 @@
 					<div id="output-area"></div>
 				</div>
 			</div>
-
-
-
 
 
 		</form>
