@@ -61,11 +61,12 @@
 
 		</form>
 		<p class="lead">After a button is pressed, the response will be shown below.</p>
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()" style="background-color:transparent"></div>
+		<div class="card">
+			<div class="card-body" id="response" onmouseover="myOverFunction()" onmouseout="myLeaveFunction()">
+				Response goes here.
 			</div>
 		</div>
+
 	</div>
 
 
