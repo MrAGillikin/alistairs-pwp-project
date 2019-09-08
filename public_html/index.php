@@ -34,7 +34,7 @@
 <body>
 
 	<div id="header" class="text-light text-center">
-		<h1>Alistair's Interface</h1>
+
 		<p>Awaiting Data Entry</p>
 
 		<h3>About the maker:</h3>
@@ -42,6 +42,7 @@
 	</div>
 
 	<div id="Main Interface" class="jumbotron offset-md-1 col-10 text-center">
+		<h1>Alistair's Interface</h1>
 		<h1 class="display-4">Entry Form</h1>
 		<p class="lead">This form takes a user input, examines it, and gives back a response. Currently, it is programmed to:
 			<ul>
@@ -71,62 +72,65 @@
 </body>
 
 <footer>
-	<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
+	<div id="responseForm" class="jumbotron text-center">
+		<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
-	<form id="alistairs-contact-form" action="../php/index.php" method="post">
-		<div class="form-group">
-			<label for="contactName">Name <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
+		<form id="alistairs-contact-form" action="../php/index.php" method="post">
+			<div class="form-group">
+				<label for="contactName">Name <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+					</div>
+					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 				</div>
-				<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 			</div>
-		</div>
-		<div class="form-group">
-			<label for="emailAddress">Email <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
+			<div class="form-group">
+				<label for="emailAddress">Email <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+					</div>
+					<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email">
 				</div>
-				<input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Email">
 			</div>
-		</div>
-		<div class="form-group">
-			<label for="emailSubject">Subject</label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
+			<div class="form-group">
+				<label for="emailSubject">Subject</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+					</div>
+					<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
 				</div>
-				<input type="text" class="form-control" id="emailSubject" name="emailSubject" placeholder="Subject">
 			</div>
-		</div>
-		<div class="form-group">
-			<label for="emailMessage">Message <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
+			<div class="form-group">
+				<label for="emailMessage">Message <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"></span>
+					</div>
+					<textarea class="form-control" rows="5" id="emailMessage" name="emailMessage" placeholder="Enter Message Here"></textarea>
 				</div>
-				<textarea class="form-control" rows="5" id="emailMessage" name="emailMessage" placeholder="Enter Message Here"></textarea>
 			</div>
-		</div>
 
-		<!-- reCAPTCHA-->
-		<div class="g-recaptcha" data-sitekey="6LdF5LIUAAAAAJT9ZbSHhf6RC1me720Byh5l_UJu"></div>
+			<!-- reCAPTCHA-->
+			<div class="g-recaptcha" data-sitekey="6LdF5LIUAAAAAJT9ZbSHhf6RC1me720Byh5l_UJu"></div>
 
-		<button class="btn btn-success" type="submit">Send</button>
+			<button class="btn btn-success" type="submit">Send</button>
 
-		<!-- Error/Success output -->
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="output-area"></div>
+			<!-- Error/Success output -->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
 			</div>
-		</div>
 
 
 
 
-	</form>
+
+		</form>
+	</div>
 </footer>
 
 </html>
