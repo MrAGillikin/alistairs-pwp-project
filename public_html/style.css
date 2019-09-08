@@ -22,3 +22,15 @@ footer {
 	font-family: Raleway, Ariel, sans-serif;
 	font-size: 2em;
 }
+
+#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+li a {
+	display: inline;
+
+}
