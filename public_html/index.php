@@ -44,19 +44,26 @@
 
 
 <div id="header" class="text-light text-center">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
+				<li class="nav-item active float-left mr-3">
 					<a class="nav-link" href="#Main Interface">Main interface<span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item float-left mr-3">
 					<a class="nav-link" href="#responseForm">Contact</a>
 				</li>
+
+					<li class="nav-item float-right mr-3">
+						<a class="nav-link" href="https://www.linkedin.com/in/alistair-gillikin-16253795/">LinkedIn</a>
+					</li>
+					<li class="nav-item float-right mr-3">
+						<a class="nav-link" href="https://github.com/MrAGillikin">GitHub</a>
+					</li>
 
 			</ul>
 		</div>
@@ -103,7 +110,7 @@
 </body>
 
 <footer>
-	<div id="responseForm" class="jumbotron text-center">
+	<div id="responseForm" class="jumbotron text-center bg-primary">
 		<p>Contact me at alistairgillikin@gmail.com or use the following form:</p>
 
 		<form id="alistairs-contact-form" action="../php/index.php" method="post">
