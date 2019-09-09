@@ -72,7 +72,7 @@
 
 <div id="about" class="jumbotron text-light offset-md-1 mt-4 col-10 text-center">
 	<h3>About the maker:</h3>
-	<p>Alistair Gillikin is a computer programmer and web developer. This interface was made to test out what could be
+	<p>Alistair Gillikin is a computer programmer and web developer (and also tabletop rpg gamer). This interface was made to test out what could be
 		done with HTML forms, and different ways a page could react to input. Enjoy fiddling with it, and if it interests
 		you, feel free to send an email.</p>
 </div>
